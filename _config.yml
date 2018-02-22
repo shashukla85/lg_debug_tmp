@@ -19,7 +19,6 @@ collections:
     output: true
   utilities:
     output: true
-    permalink: /:path
   tips:
     output: true
   performance:
