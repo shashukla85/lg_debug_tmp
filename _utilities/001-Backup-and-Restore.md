@@ -2,7 +2,8 @@
 layout: page
 title:  "Backup and Restore"
 date:   2015-01-27 22:02:36
-permalink: {{ site.baseurl }}/utilities/backup-restore.html
+#permalink: {{ site.baseurl }}/utilities/backup-restore.html
+permalink: {{ site.baseurl }}{{ post.url }}
 ---
 
 What is it
