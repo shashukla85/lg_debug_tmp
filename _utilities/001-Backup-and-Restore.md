@@ -2,7 +2,7 @@
 layout: page
 title:  "Backup and Restore"
 date:   2015-01-27 22:02:36
-permalink: /lg_debug_tmp/utilities/backup-restore.html
+permalink: {{ site.baseurl }}/utilities/backup-restore.html
 ---
 
 What is it
