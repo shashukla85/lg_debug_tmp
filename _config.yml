@@ -19,7 +19,7 @@ collections:
     output: true
   utilities:
     output: true
-    permalink: /:collection/:path
+    permalink: /utilities/:path
   tips:
     output: true
   performance:
