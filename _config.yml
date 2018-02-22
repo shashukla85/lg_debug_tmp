@@ -18,7 +18,8 @@ collections:
   sql:
     output: true
   utilities:
-    output: false
+    output: true
+    permalink: /:collection/:path
   tips:
     output: true
   performance:
