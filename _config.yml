@@ -1,6 +1,7 @@
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 # Site settings
 title: Postgres Guide
+baseurl: /lg_debug_tmp
 twitter_username: postgresguide
 twitter_tweet_button: true
 github_username: craigkerstiens/postgresguide.com
