@@ -1,7 +1,6 @@
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 # Site settings
 title: Postgres Guide
-baseurl: ...
 destination:    ./_site
 safe:           false
 lsi:            false
