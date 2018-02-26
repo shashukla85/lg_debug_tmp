@@ -1,7 +1,7 @@
 <nav class="side">
   <h4>Setup</h4>
   {% for document in site.setup %}
-    <li><a href="{{ document.url }}">{{ document.title }}</a>
+    <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
       <nav>
       </nav>
     </li>
@@ -9,7 +9,7 @@
 
   <h4>General SQL</h4>
   {% for document in site.sql %}
-    <li><a href="{{ document.url }}">{{ document.title }}</a>
+    <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
       <nav>
       </nav>
     </li>
@@ -25,7 +25,7 @@
 
   <h4>Postgres Specific Tips</h4>
   {% for document in site.tips %}
-    <li><a href="{{ document.url }}">{{ document.title }}</a>
+    <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
       <nav>
       </nav>
     </li>
@@ -33,7 +33,7 @@
 
   <h4>Postgres Performance</h4>
   {% for document in site.performance %}
-    <li><a href="{{ document.url }}">{{ document.title }}</a>
+    <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
       <nav>
       </nav>
     </li>
@@ -41,7 +41,7 @@
 
   <h4>Postgres the cool parts</h4>
   {% for document in site.sexy %}
-    <li><a href="{{ document.url }}">{{ document.title }}</a>
+    <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a>
       <nav>
       </nav>
     </li>
@@ -53,7 +53,7 @@
 
   <h4>Further Reading</h4>
   {% for document in site.links %}
-    <li><a href="{{ document.url-link }}">{{ document.title }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ document.url-link }}">{{ document.title }}</a></li>
   {% endfor %}
 
 </nav>
