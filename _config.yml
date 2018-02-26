@@ -7,6 +7,7 @@ lsi:            false
 include:        [".htaccess"]
 exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
 permalink: /:categories/:year/:title
+baseurl: /lg_debug_tmp
 markdown_ext:   markdown,mkd,mkdn,md
 #markdown: redcarpet
 markdown: karmadown
