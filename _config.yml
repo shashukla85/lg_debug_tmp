@@ -17,7 +17,6 @@ collections:
   sql:
     output: true
   utilities:
-    path: /lg_debug_tmp/utilities/
     output: true
   tips:
     output: true
