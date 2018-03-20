@@ -222,7 +222,7 @@
   max-width: calc(100% - 260px);
   float: right;
   @include media-query($on-laptop) {
-    max-width: calc(100% - 3000px);
+    max-width: calc(100% - 30px);
   }
 
  }
