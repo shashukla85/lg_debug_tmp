@@ -219,7 +219,7 @@
 
 .post {
   width: 100%;
-  max-width: calc(100% - 260px);
+  max-width: calc(100% - 660px);
   float: right;
   @include media-query($on-laptop) {
     max-width: calc(100% - 30px);
