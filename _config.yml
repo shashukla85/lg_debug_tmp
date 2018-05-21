@@ -29,3 +29,9 @@ collections:
     output: false
   ads:
     output: false
+    
+    
+tipue_search:
+  include:
+    pages: true
+    collections: [sql,setup,tips]  
