@@ -34,4 +34,6 @@ collections:
 tipue_search:
   include:
     pages: true
-    collections: [sql,setup,tips]  
+    collections: [sql,setup,tips]
+  exclude:
+    files: [index.md, search.html]
