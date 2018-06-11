@@ -29,3 +29,11 @@ collections:
     output: false
   ads:
     output: false
+    
+    
+tipue_search:
+  include:
+    pages: true
+    collections: [setup,sql,utilities,tips, performance, sexy, links, ads]
+  exclude:
+    files: [index.md, search.html]

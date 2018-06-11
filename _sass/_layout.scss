@@ -52,7 +52,7 @@
 
         .menu-icon {
             display: block;
-            float: right;
+            float: left;
             width: 36px;
             height: 26px;
             line-height: 0;
@@ -91,7 +91,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  background: #E8E8E8;
+  background: #E11E8;
   text-align: center;
 
   li {
@@ -118,7 +118,7 @@
 }
 
 .footer-license {
-  background: #E3E3E3;
+  background: #E3E0E3;
   font-size: 12px;
   padding: 10px 0;
 
