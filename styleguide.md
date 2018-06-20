@@ -77,5 +77,5 @@ layout: styleguide
   <div class="btn primary">Hello World</div>
   <div class="btn secondary">Hello World</div>
 </div>
-<br><br><br>
+<br><br><br><br>
 <script src="/assets/js/svgcheckbx.js"></script>
